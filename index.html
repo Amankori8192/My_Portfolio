@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+  </head>
+  <body>
+    <header>
+      <nav >
+        <input type="checkbox" id="check" />
+        <label for="check" id="checkBtn"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
+        <strong class="logo"><a href="#home">My <span>Portfolio</span></a></strong>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#education-section">Education</a></li>
+          <li><a href="#project-section">Projects</a></li>
+          <li><a href="#service-section">Services</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section" id="home">
+        <div class="lines">
+          <div class="line1"><h2>Hey, I'm Aman</h2></div>
+          <div class="line2 split"><h1>FRONT-END</h1></div>
+          <div class="line3"><h1>WEB DEVELOPER</h1></div>
+          <div class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/aman-kori-91b039240/"
+              target="_blank"
+              ><img src="icons/linkedin.png" class="icon"
+            /></a>
+            <a href="https://github.com/Amankori8192" target="_blank"
+              ><img src="icons/icons8-github-188.png" class="icon"
+            /></a>
+            <a
+              href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new"
+              target="_blank"
+              ><img src="icons/gmail.png" class="icon"
+            /></a>
+          </div>
+          <button class="btn"><a href="icons/My Resume.pdf" download>Download cv</a></button>
+        </div>
+      </section>
+
+      <section class="about-section" id="about-section">
+        <div class="about">
+          <h2>AMAN KUMAR</h2>
+          <h3>Web Developer</h3>
+          <p>
+            I'm a passionate <span>FRONT-END</span> Developer with a focus on
+            creating dynamic and responsive web applications. I have a strong
+            foundation in <span>HTML, CSS, JavaScript</span> &
+            <span>React.js</span>, and My goal is to build user-friendly
+            interfaces that enhance the overall user experience.
+            <br />
+            <br />
+            I attended many challenges, Hackathons to brush up my skills. When
+            I'm not coding, texting or pushing pixels, you'll find me Gym or
+            working out. I love Travelling💛.
+          </p>
+        </div>
+        <div class="skills">
+          <div class="skills_icon">
+            <img src="icons/html5_logo.png" alt="Html-icon" />HTML
+          </div>
+          <div class="skills_icon">
+            <img src="icons/css3_logo.png" alt="Css-icon" />CSS
+          </div>
+          <div class="skills_icon">
+            <img src="icons/js_logo.png" alt="JavaScript-icon" />JavaScript
+          </div>
+          <div class="skills_icon">
+            <img src="icons/react_logo.png" alt="React-icon" />React.js
+          </div>
+          <div class="skills_icon">
+            <img src="icons/bootstrap_logo.png" alt="Bootstrap-icon" />Bootstrap
+          </div>
+          <div class="skills_icon">
+            <img src="icons/git_logo.png" alt="Git-icon" />Git
+          </div>
+          <div class="skills_icon">
+            <img src="icons/vscode_logo.png" alt="VSCode-icon" />VSCode
+          </div>
+          <div class="skills_icon">
+            <img src="icons/icons8-github-188.png" alt="GitHub-icon" />GitHub
+          </div>
+          <div class="skills_icon">
+            <img src="icons/netlify_logo.png" alt="Netlify-icon" />Netlify
+          </div>
+        </div>
+      </section>
+
+      <section class="education-section" id="education-section">
+        <div class="educations">
+          <h2 class="heading">Education</h2>
+          <div class="education">
+            <div class="Graduation">
+              <h2>Bachelor of Technology</h2>
+              <h3>R.D Engineering College, Duhai | Ghaziabad</h3>
+              <h2>2018-2022 | Completed</h2>
+            </div>
+            <div class="Intermediate">
+              <h2>12<sup>th</sup> | PCM</h2>
+              <h3>
+                Dr. K.N Modi Sci & Comm. Inter College, Modinagar | Ghaziabad
+              </h3>
+              <h2>2017-2018 | Completed</h2>
+            </div>
+            <div class="Highschool">
+              <h2>10<sup>th</sup> | Science</h2>
+              <h3>
+                Dr. K.N Modi Sci & Comm. Inter College, Modinagar | Ghaziabad
+              </h3>
+              <h2>2015-2016 | Completed</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-section" id="project-section">
+        <h2 class="heading">Projects</h2>
+        <div class="projects">
+          <div class="login-form">
+            <a
+              href="https://amankori8192.github.io/myFirstLoginPage/"
+              target="_blank"
+              ><img src="icons/login.png"
+            /></a>
+            <div class="discription">
+              <h2>Login Form</h2>
+              <p>
+                A simple and responsive login page designed using HTML and CSS.
+                It features a clean layout, input validation, and a modern user
+                interface suitable for authentication screens.
+              </p>
+            </div>
+          </div>
+          <div class="calculator">
+            <a
+              href="https://amankori8192.github.io/My_Calculator/"
+              target="_blank"
+              ><img src="icons/calculator-app.png"
+            /></a>
+            <div class="discription">
+              <h2>Calculator App</h2>
+              <p>
+                A fully functional calculator application built with HTML, CSS,
+                and JavaScript. It supports basic arithmetic operations, a
+                responsive layout, and a user-friendly interface for quick
+                calculations.
+              </p>
+            </div>
+          </div>
+          <div class="myntra">
+            <a
+              href="https://amankori8192.github.io/Myntra_UI_Clone/"
+              target="_blank"
+              ><img src="icons/myntra.png"
+            /></a>
+            <div class="discription">
+              <h2>Myntra UI Clone</h2>
+              <p>
+                A UI-Clone of the popular e-commerce platform Myntra, built
+                using HTML, CSS. The project features a responsive design,
+                product listings, and a shopping cart.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="service-section" id="service-section">
+        <h2 class="heading">Services</h2>
+        <div class="service">
+          <div class="service-description">
+            <div class="service-icon">
+              <img
+                width="64"
+                height="64"
+                src="https://img.icons8.com/external-solidglyph-m-oki-orlando/64/external-web-developer-web-development-solid-solidglyph-m-oki-orlando.png"
+                alt="external-web-developer-web-development-solid-solidglyph-m-oki-orlando"
+              />
+            </div>
+            <h3>Web Development</h3>
+            <p>
+              I like to code personalized websites, and enjoy bringing ideas to
+              life in the browser.
+            </p>
+          </div>
+          <div class="service-description">
+            <div class="service-icon">
+              <img
+                width="64"
+                height="64"
+                src="https://img.icons8.com/wired/64/idea.png"
+                alt="idea"
+              />
+            </div>
+            <h3>E-commerce Development</h3>
+            <p>
+              Specialized in creating online stores, e-commerce developers
+              enable businesses to sell products and services online, often
+              integrating payment gateways and shopping cart functionality.
+            </p>
+          </div>
+          <div class="service-description">
+            <div class="service-icon">
+              <img
+                width="64"
+                height="64"
+                src="https://img.icons8.com/ios-glyphs/60/gear.png"
+                alt="gear"
+              />
+            </div>
+            <h3>Customization</h3>
+            <p>
+              Web development services offer tailor-made solutions. They can
+              craft websites and applications that align perfectly with your
+              unique objectives, branding, and user requirements.
+            </p>
+          </div>
+          <div class="service-description">
+            <div class="service-icon">
+              <img
+                width="64"
+                height="64"
+                src="https://img.icons8.com/sf-black-filled/64/layers.png"
+                alt="layers"
+              />
+            </div>
+            <h3>WordPress Development</h3>
+            <p>
+              Tell us about your requirements for building personal websites,
+              business websites, or blogs. Our WordPress developers create
+              cutting-edge WordPress websites according to your needs.
+            </p>
+          </div>
+          <div class="service-description">
+            <div class="service-icon">
+              <img
+                width="64"
+                height="64"
+                src="https://img.icons8.com/ios/50/radio-tower.png"
+                alt="radio-tower"
+              />
+            </div>
+            <h3>Design Portfolio</h3>
+            <p>
+              Whether you're a Web developer, fashion director or graphic
+              designer an online portfolio is an absolute must to establish your
+              career. I can design your portfolio according to your needs with
+              the help of HTML, CSS, JS and WordPress.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <h2 class="heading">Contact Me</h2>
+        <div class="contact-intro">
+          <h2>Let's <span>Connect !</span></h2>
+          <p>
+            If you have any query, suggestions, or just want to say Hello, feel
+            free to reach out to me via email or connect with me on LinkedIn.
+          </p>
+        </div>
+        <div class="contact" id="contact-section">
+          <div class="contact-details">
+            <div class="contact-address">
+              <img
+                src="https://img.icons8.com/dotty/80/marker.png"
+                alt="marker"
+              />
+              <div class="location">
+                <h2>Location :</h2>
+                <p>Modinagar, Ghaziabad, Uttar-Pradesh, India</p>
+              </div>
+            </div>
+            <div class="contact-address">
+              <img
+                width="96"
+                height="96"
+                src="https://img.icons8.com/parakeet-line/96/message-squared.png"
+                alt="message-squared"
+              />
+              <div class="location">
+                <h2>Email :</h2>
+                <p>Amankori2025@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="form-container">
+            <form action="post">
+              <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                name="name"
+                required
+              />
+              <br>
+              <input
+                type="email"
+                id="email"
+                placeholder="Your email"
+                name="email"
+                required
+              /><br />
+              <div class="message-container">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Enter your message"
+                  required
+                ></textarea
+                ><br />
+              </div>
+              <button id="sendBtn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <section class="footer-section">
+            <p> &copy; 2025 <a href="#home">Aman Kumar</a>. All rights reserved.</p>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrambleTextPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+</html>
